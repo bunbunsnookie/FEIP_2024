@@ -12,6 +12,11 @@
   
 </template>
 
+<script>
+
+console.log("Hello, world!")
+
+</script>
 
 <style>
 
