@@ -20,6 +20,19 @@ console.log("Hello, world!")
 
 <style>
 
-@import url(~/styles/base.css);
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.open_sans {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.background{
+    justify-content:space-between;
+    text-align: center;
+    background-color:burlywood;
+}
 
 </style>
