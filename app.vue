@@ -1,38 +1,19 @@
-<template>
-
-  <div class="background">
-
-    <div class="">
-      <span class="open_sans">Hello</span>
-      <span class="montserrat">, world!</span>
-    </div>
-    
-
-  </div>
-  
-</template>
-
 <script>
 
-console.log("Hello, world!")
+import Header from '~/components/Header.vue'
 
 </script>
 
-<style>
+<template>
+  <Header />
+</template>
 
-.montserrat {
-    font-family: 'Montserrat';
-}
 
-.open_sans {
-    font-family: 'Open Sans';
-    font-weight: 700;
-}
+<style lang="scss">
 
-.background{
-    justify-content:space-between;
-    text-align: center;
-    background-color:burlywood;
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 </style>
