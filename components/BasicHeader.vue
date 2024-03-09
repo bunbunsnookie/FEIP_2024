@@ -1,5 +1,6 @@
 <script>
 
+
 </script>
 
 <template>
@@ -14,7 +15,7 @@
 
 .header{ 
     width: 100%;
-	background: #a5def0;
+	background: #98D0F9;
 	height: 70px;
     display: flex;
     align-items: center;
@@ -23,8 +24,10 @@
  .text_header {
     font-family: 'Open Sans';
     font-weight: 700;
+    font-size: 1.5em;
     margin-left: 50px;
 }
+
 
 
 

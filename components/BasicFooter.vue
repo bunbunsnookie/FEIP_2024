@@ -15,12 +15,12 @@
 
 </template>
 
-<style>
+<style lang="scss">
+
 
 .footer{ 
     position: absolute;
     bottom: 0;
-    left: 0;
     width: 100%;
 	background: #899396;
 	height: 70px;
@@ -40,13 +40,14 @@
  .text_footer {
     font-family: 'Open Sans';
     margin-left: 50px;
+    font-size: 1.5em;
 }
 
 .telegram{
     font-family: 'Open Sans';
     text-decoration: none;
-    color: rgb(68, 61, 110);
     margin-right: 50px;
+    font-size: 1.5em;
 }
 
 

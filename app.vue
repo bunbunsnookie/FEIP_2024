@@ -1,13 +1,15 @@
 <script>
 
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
+import BasicHeader from '~/components/BasicHeader.vue'
+import BasicBody from '~/components/BasicBody.vue'
+import BasicFooter from '~/components/BasicFooter.vue'
 
 </script>
 
 <template>
-  <Header />
-  <Footer />
+  <BasicHeader />
+  <BasicBody />
+  <BasicFooter />
 </template>
 
 
