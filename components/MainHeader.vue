@@ -7,18 +7,21 @@
   
   <header>
 
-    <a href="/">
-        <img src="~/assets/img/logo.png" height="40px">
-    </a>
+    <div class="header_left_block">
+      <a href="/">
+          <img src="~/assets/img/logo.png" height="40px">
+      </a>
+      <ul class="menu">
+        <li><a href="#">Реализованные проекты</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
 
-    <ul class="menu">
-      <li>Реализованные проекты</li>
-      <li>Новости</li>
-      <li>Контакты</li>
-    </ul>
+
 
     <div class="header_right_block">
-      <a class="tel" href="tel:88001234567"><img src="~/assets/img/tel.png" height="20px">+7 (900) 900-90-90</a>
+      <a class="tel" href="tel:88001234567"><img src="~/assets/img/tel.png" height="16px">+7 (900) 900-90-90</a>
       <BaseButton />
     </div>
 
@@ -36,19 +39,20 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 88px;
-    padding-right: 88px;
-    padding-top: 29px;
-    padding-bottom: 29px;
+    padding: 24px 88px;
 }
 
 .menu{
-  color: #666666;
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   gap: 24px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #666666;
 }
 
 .tel{
@@ -62,6 +66,12 @@ header{
 .header_right_block{
   display: flex;
   gap: 24px;
+}
+
+.header_left_block{
+  display: flex;
+  gap: 80px;
+  align-items: center;
 }
 
 </style>

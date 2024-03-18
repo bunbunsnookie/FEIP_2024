@@ -1,5 +1,4 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
-  "src": "./assets/images"
+  "extends": "./.nuxt/tsconfig.json"
 }

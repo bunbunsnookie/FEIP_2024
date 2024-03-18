@@ -16,9 +16,7 @@ button{
     background-color: #029F59;
     color: #FFFFFF;
     border-radius: 10px;
-    height: 44px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 16px 40px;
     border: none;
 }
 
