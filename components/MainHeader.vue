@@ -1,27 +1,45 @@
-<script>
+<script setup lang="ts">
 
+import HouseIcon from 'assets/icons/DarkLogo.svg?skipsvgo'
+
+const nav = [
+  {
+    url: '#',
+    label: 'Реализованные проекты'
+  },
+  {
+    url: '#',
+    label: 'Новости'
+  },
+  {
+    url: '#',
+    label: 'Контакты'
+  },
+]
 
 </script>
 
 <template>
   
-  <header>
+  <header class="header">
 
     <div class="header_left_block">
       <a href="/">
-          <img src="~/assets/img/logo.png" height="40px">
+        <HouseIcon />
       </a>
       <ul class="menu">
-        <li><a href="#">Реализованные проекты</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li v-for='item in nav'>
+          <a :href='item.url'>
+            {{  item.label }}
+          </a>
+        </li>
       </ul>
     </div>
 
 
 
     <div class="header_right_block">
-      <a class="tel" href="tel:88001234567"><img src="~/assets/img/tel.png" height="16px">+7 (900) 900-90-90</a>
+      <a class="tel" href="tel:88001234567"><SvgoPhoneIcon class="Icon" />+7 (900) 900-90-90</a>
       <BaseButton />
     </div>
 
@@ -33,7 +51,7 @@
 
 <style lang="scss" scoped>
 
-header{
+.header{
     font-family: 'Montserrat';
     background-color: #FFFFFF;
     display: flex;
@@ -43,9 +61,6 @@ header{
 }
 
 .menu{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
   display: flex;
   gap: 24px;
 }
@@ -72,6 +87,11 @@ header{
   display: flex;
   gap: 80px;
   align-items: center;
+}
+
+.Icon{
+  color: #029F59;
+
 }
 
 </style>

@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts', 'nuxt-svgo'],
+
 
   googleFonts: {
     families: {
@@ -11,5 +12,7 @@ export default defineNuxtConfig({
     }
   }
 })
+
+
 
 

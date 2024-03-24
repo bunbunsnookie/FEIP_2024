@@ -10,13 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@radix-ui/colors": "^3.0.0",
     "nuxt": "^3.10.3",
-    "radix-vue": "^1.5.2",
+    "radix-vue": "^1.5.3",
+    "reset-css": "^5.0.2",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
     "@nuxtjs/google-fonts": "^3.0.0-1",
+    "nuxt-svgo": "^4.0.0",
     "sass": "^1.71.1"
   }
 }
